@@ -1,17 +1,18 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 import Footer from "~/components/business/Footer";
 import Header from "~/components/business/Header";
-import CatalogScreen from "~/components/screens/Catalog";
+import SubmitionScreen from "~/components/screens/Submition";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Каталог товарів</title>
+        <title>Оформлення</title>
       </Head>
       <Header />
-      <CatalogScreen/>
-      <Footer/>
+      <SubmitionScreen />
+      <Footer />
     </>
   );
 }

@@ -1,17 +1,17 @@
 import Head from "next/head";
 import Footer from "~/components/business/Footer";
 import Header from "~/components/business/Header";
-import CatalogScreen from "~/components/screens/Catalog";
+import PaymentScreen from "~/components/screens/Payment";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Каталог товарів</title>
+        <title>Оплата</title>
       </Head>
       <Header />
-      <CatalogScreen/>
-      <Footer/>
+      <PaymentScreen />
+      <Footer />
     </>
   );
 }
